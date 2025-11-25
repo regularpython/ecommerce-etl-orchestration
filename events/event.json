@@ -1,3 +1,20 @@
 {
-  "Name": "Regularpython"
+  "Records": [
+    {
+      "messageId": "2bb5a8c3-2909-4c88-b43e-768722171617",
+      "receiptHandle": "AQEB+KdY4Syg/ksUYHsfpPqNLeWJFrLPgSVQUpnzWwppJbtGyAJZObTDreUsTh0BZi1Cv+BTRNpip3uTqmvYOPUdLR3qkQvVSBtzmo3bkFq1iVf4VvHBclMsWqXpXKq8ZdsSY6hheTWBcSF6K0QVRBT2MICVZT4/yWJL+HWq4XxQ7KRWu9e7UVTxablHIRyBAUpRVaOFAF1onmLRW9jl+7hrQZdSxX1J9hRpzdUpjnB6kUAx7kCfV6wmagU3Fn75RARBocCBlIhFBInHUulnq2jnR3jhlwmKd2pT/+klO12KxhOYrNI5cL/3yXuPuBoAuRVGvX7ggLhIn6EVkBFKhpgJ5m2LvkPR1Cew7B11UOi+EHJ3lkqEkon0UrIvKmPIqtoz4rUUGCIZ2Ya4zsxfMmkqNQ==",
+      "body": "{\n    \"header\": {\n        \"eventName\": \"customerDetailsEvent\",\n        \"publisher\": \"abc12345-6789-0abc-def1-23456789abcd\",\n        \"organizationId\": \"Rental Event\",\n        \"source\": \"my.rental.service\",\n        \"timestamp\": \"timestamp\"\n    },\n    \"body\": {\n        \"customers\": [{\n                \"customer_id\": 1,\n                \"name\": \"John Doe\",\n                \"email\": \"john.doe@example.com\",\n                \"phone_number\": \"555-123-4567\",\n                \"address\": \"123 Main St, Anytown, USA\"\n            }\n        ]\n    }\n}",
+      "attributes": {
+        "ApproximateReceiveCount": "1",
+        "SentTimestamp": "1764069182523",
+        "SenderId": "339713066136",
+        "ApproximateFirstReceiveTimestamp": "1764069182534"
+      },
+      "messageAttributes": {},
+      "md5OfBody": "1de37afc8eff4f2767eabeaef019a4aa",
+      "eventSource": "aws:sqs",
+      "eventSourceARN": "arn:aws:sqs:us-east-1:339713066136:EnglishQUEUE",
+      "awsRegion": "us-east-1"
+    }
+  ]
 }
